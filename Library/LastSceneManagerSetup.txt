@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/MoveContents/04_CubeWall/04_CubeWall.unity
+  isLoaded: 1
+  isActive: 1
