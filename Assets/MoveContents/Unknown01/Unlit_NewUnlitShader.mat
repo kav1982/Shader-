@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Unlit_NewUnlitShader
   m_Shader: {fileID: 4800000, guid: d9d119708dc26db43a7705a4c4df6cc1, type: 3}
   m_ShaderKeywords: 
@@ -19,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Fresnel: 0.58
+    - _Fresnel: 0.388
     m_Colors:
-    - _BrightColor: {r: 0.3803922, g: 0.09019608, b: 0.2745098, a: 1}
+    - _BrightColor: {r: 0.8301887, g: 0.33285868, b: 0.64873046, a: 1}
     - _DarkColor: {r: 0.9882354, g: 0.003921569, b: 0.3529412, a: 1}
     - _FresnelColor: {r: 1, g: 0.8117648, b: 0.937255, a: 1}

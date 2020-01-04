@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 09_Snow_0
   m_Shader: {fileID: 4800000, guid: 814f9b4b26e197f4389ba8daec5ca80b, type: 3}
   m_ShaderKeywords: 
@@ -39,10 +40,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amount: 5.33
-    - _BuildUp: 0
-    - _FallOff: 1
-    - _MaxTessellation: 5.88
-    - _Sharpness: 12.11
-    - _TessellationDistance: 10
+    - _Amount: 4.4
+    - _BuildUp: 0.0461
+    - _FallOff: 11.37
+    - _MaxTessellation: 15.58
+    - _Sharpness: 7.85
+    - _TessellationDistance: 14.1
     m_Colors: []
