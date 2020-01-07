@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Hair 2
   m_Shader: {fileID: 4800000, guid: c75e98186f9a0fb4989c4094bddd4722, type: 3}
   m_ShaderKeywords: 
@@ -43,19 +44,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Brightness: 0.09
+    - _Brightness: 0
     - _Cutoff: 0.11
     - _Exp: 100
-    - _Gloss: 0.35
+    - _Gloss: 0.404
     - _GlossAdd: 0.29
     - _HighlightIntensity: 1
     - _HighlightSharpness: 0.7354267
-    - _OutlineWidth: 0.00148
+    - _OutlineWidth: 0.00321
     - _OutlingWidth: 0
     - _ReflectionAdd: 0.33
     - _RimLightPower: 6.07
     - _SpecPower: 2.67
-    - _SpecularBands: 2
+    - _SpecularBands: 3.06
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _GloeColor: {r: 1, g: 1, b: 1, a: 1}

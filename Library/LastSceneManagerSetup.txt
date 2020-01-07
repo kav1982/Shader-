@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MoveContents/10_BlackHole/10_BlackHole.unity
+- path: Assets/MoveContents/20_Cycle/20_Cycle.unity
   isLoaded: 1
   isActive: 1

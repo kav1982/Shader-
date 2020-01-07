@@ -1,13 +1,13 @@
 // Shader created with Shader Forge v1.38 
-// Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
+// Shader Forge (c) Freya Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:2,rntp:3,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2321,x:33063,y:32726,varname:node_2321,prsc:2|emission-9032-RGB,clip-170-OUT;n:type:ShaderForge.SFN_Tex2d,id:7080,x:32261,y:32849,ptovrint:False,ptlb:UV_Distance,ptin:_UV_Distance,varname:node_7080,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:1a396cf98e1c27440a280ba24c64ec49,ntxv:0,isnm:False;n:type:ShaderForge.SFN_FragmentPosition,id:1337,x:31891,y:32953,varname:node_1337,prsc:2;n:type:ShaderForge.SFN_ViewPosition,id:5619,x:31891,y:33089,varname:node_5619,prsc:2;n:type:ShaderForge.SFN_Distance,id:5953,x:32081,y:33021,varname:node_5953,prsc:2|A-1337-XYZ,B-5619-XYZ;n:type:ShaderForge.SFN_Multiply,id:3429,x:32261,y:33021,varname:node_3429,prsc:2|A-5953-OUT,B-9954-OUT;n:type:ShaderForge.SFN_Add,id:713,x:32464,y:32893,varname:node_713,prsc:2|A-7080-R,B-3429-OUT;n:type:ShaderForge.SFN_Floor,id:170,x:32634,y:32893,varname:node_170,prsc:2|IN-713-OUT;n:type:ShaderForge.SFN_Color,id:9032,x:32634,y:32752,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_9032,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:0,c3:0,c4:1;n:type:ShaderForge.SFN_Slider,id:9954,x:31992,y:33243,ptovrint:False,ptlb:Thickness,ptin:_Thickness,varname:node_9954,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.01,max:0.1;proporder:7080-9032-9954;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:2,rntp:3,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2321,x:33063,y:32726,varname:node_2321,prsc:2|emission-9032-RGB,clip-170-OUT;n:type:ShaderForge.SFN_Tex2d,id:7080,x:32261,y:32849,ptovrint:False,ptlb:UV_Distance,ptin:_UV_Distance,varname:node_7080,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:1a396cf98e1c27440a280ba24c64ec49,ntxv:0,isnm:False;n:type:ShaderForge.SFN_FragmentPosition,id:1337,x:31891,y:32953,varname:node_1337,prsc:2;n:type:ShaderForge.SFN_ViewPosition,id:5619,x:31891,y:33089,varname:node_5619,prsc:2;n:type:ShaderForge.SFN_Distance,id:5953,x:32081,y:33021,varname:node_5953,prsc:2|A-1337-XYZ,B-5619-XYZ;n:type:ShaderForge.SFN_Multiply,id:3429,x:32261,y:33021,varname:node_3429,prsc:2|A-5953-OUT,B-9954-OUT;n:type:ShaderForge.SFN_Add,id:713,x:32464,y:32893,varname:node_713,prsc:2|A-7080-R,B-3429-OUT;n:type:ShaderForge.SFN_Floor,id:170,x:32634,y:32893,varname:node_170,prsc:2|IN-713-OUT;n:type:ShaderForge.SFN_Color,id:9032,x:32634,y:32701,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_9032,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:0,c3:0,c4:1;n:type:ShaderForge.SFN_Slider,id:9954,x:31891,y:33242,ptovrint:False,ptlb:Thickness,ptin:_Thickness,varname:node_9954,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.04273499,max:0.1;n:type:ShaderForge.SFN_Round,id:1012,x:32634,y:33028,varname:node_1012,prsc:2|IN-713-OUT;n:type:ShaderForge.SFN_Length,id:9453,x:32081,y:32895,varname:node_9453,prsc:2|IN-1337-XYZ;proporder:7080-9032-9954;pass:END;sub:END;*/
 
 Shader "Move/17_Grid" {
     Properties {
         _UV_Distance ("UV_Distance", 2D) = "white" {}
         _Color ("Color", Color) = (1,0,0,1)
-        _Thickness ("Thickness", Range(0, 0.1)) = 0.01
+        _Thickness ("Thickness", Range(0, 0.1)) = 0.04273499
         [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
     }
     SubShader {
@@ -26,7 +26,6 @@ Shader "Move/17_Grid" {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_FORWARDBASE
             #include "UnityCG.cginc"
             #pragma multi_compile_fwdbase_fullshadows
             #pragma multi_compile_fog
@@ -55,7 +54,8 @@ Shader "Move/17_Grid" {
             }
             float4 frag(VertexOutput i) : COLOR {
                 float4 _UV_Distance_var = tex2D(_UV_Distance,TRANSFORM_TEX(i.uv0, _UV_Distance));
-                clip(floor((_UV_Distance_var.r+(distance(i.posWorld.rgb,_WorldSpaceCameraPos)*_Thickness))) - 0.5);
+                float node_713 = (_UV_Distance_var.r+(distance(i.posWorld.rgb,_WorldSpaceCameraPos)*_Thickness));
+                clip(floor(node_713) - 0.5);
 ////// Lighting:
 ////// Emissive:
                 float3 emissive = _Color.rgb;
@@ -77,7 +77,6 @@ Shader "Move/17_Grid" {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_SHADOWCASTER
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
             #pragma fragmentoption ARB_precision_hint_fastest
@@ -106,7 +105,8 @@ Shader "Move/17_Grid" {
             }
             float4 frag(VertexOutput i) : COLOR {
                 float4 _UV_Distance_var = tex2D(_UV_Distance,TRANSFORM_TEX(i.uv0, _UV_Distance));
-                clip(floor((_UV_Distance_var.r+(distance(i.posWorld.rgb,_WorldSpaceCameraPos)*_Thickness))) - 0.5);
+                float node_713 = (_UV_Distance_var.r+(distance(i.posWorld.rgb,_WorldSpaceCameraPos)*_Thickness));
+                clip(floor(node_713) - 0.5);
                 SHADOW_CASTER_FRAGMENT(i)
             }
             ENDCG

@@ -1,11 +1,11 @@
 // Shader created with Shader Forge v1.38 
-// Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
+// Shader Forge (c) Freya Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:2,rntp:3,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:5610,x:32737,y:32649,varname:node_5610,prsc:2|diff-3577-OUT,emission-3577-OUT,clip-1430-OUT;n:type:ShaderForge.SFN_Tex2d,id:4474,x:32273,y:32584,ptovrint:False,ptlb:Floor,ptin:_Floor,varname:node_4474,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:c63f1927f757fee4eb64072dbe578e9d,ntxv:0,isnm:False;n:type:ShaderForge.SFN_FragmentPosition,id:3559,x:32002,y:32855,varname:node_3559,prsc:2;n:type:ShaderForge.SFN_Distance,id:2004,x:32213,y:32932,varname:node_2004,prsc:2|A-3559-XYZ,B-8954-XYZ;n:type:ShaderForge.SFN_Divide,id:7012,x:32385,y:32932,varname:node_7012,prsc:2|A-2004-OUT,B-3388-OUT;n:type:ShaderForge.SFN_ValueProperty,id:556,x:31989,y:33207,ptovrint:False,ptlb:holeSize,ptin:_holeSize,varname:node_556,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0;n:type:ShaderForge.SFN_Clamp,id:3388,x:32181,y:33223,cmnt:防止输入负值,varname:node_3388,prsc:2|IN-556-OUT,MIN-1542-OUT,MAX-556-OUT;n:type:ShaderForge.SFN_Vector1,id:1542,x:31989,y:33267,varname:node_1542,prsc:2,v1:0;n:type:ShaderForge.SFN_Clamp01,id:1430,x:32543,y:32932,varname:node_1430,prsc:2|IN-7012-OUT;n:type:ShaderForge.SFN_Color,id:7020,x:32273,y:32765,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_7020,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:0,c3:0,c4:1;n:type:ShaderForge.SFN_Multiply,id:3577,x:32474,y:32631,varname:node_3577,prsc:2|A-4474-RGB,B-7020-RGB;n:type:ShaderForge.SFN_Vector4Property,id:8954,x:32002,y:33002,ptovrint:False,ptlb:worldHolePos,ptin:_worldHolePos,varname:node_8954,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:0,v3:0,v4:0;proporder:556-4474-7020-8954;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:2,rntp:3,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:5610,x:32723,y:32649,varname:node_5610,prsc:2|diff-3577-OUT,emission-3577-OUT,clip-1430-OUT;n:type:ShaderForge.SFN_Tex2d,id:4474,x:32273,y:32584,ptovrint:False,ptlb:Floor,ptin:_Floor,varname:node_4474,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:c63f1927f757fee4eb64072dbe578e9d,ntxv:0,isnm:False;n:type:ShaderForge.SFN_FragmentPosition,id:3559,x:32002,y:32855,varname:node_3559,prsc:2;n:type:ShaderForge.SFN_Distance,id:2004,x:32213,y:32932,varname:node_2004,prsc:2|A-3559-XYZ,B-8954-XYZ;n:type:ShaderForge.SFN_Divide,id:7012,x:32381,y:32932,varname:node_7012,prsc:2|A-2004-OUT,B-3388-OUT;n:type:ShaderForge.SFN_ValueProperty,id:556,x:32002,y:33163,ptovrint:False,ptlb:holeSize,ptin:_holeSize,varname:node_556,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1.45;n:type:ShaderForge.SFN_Clamp,id:3388,x:32213,y:33163,cmnt:防止输入负值,varname:node_3388,prsc:2|IN-556-OUT,MIN-1542-OUT,MAX-556-OUT;n:type:ShaderForge.SFN_Vector1,id:1542,x:32002,y:33234,varname:node_1542,prsc:2,v1:0;n:type:ShaderForge.SFN_Clamp01,id:1430,x:32553,y:32932,varname:node_1430,prsc:2|IN-7012-OUT;n:type:ShaderForge.SFN_Color,id:7020,x:32273,y:32765,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_7020,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:0,c3:0,c4:1;n:type:ShaderForge.SFN_Multiply,id:3577,x:32490,y:32649,varname:node_3577,prsc:2|A-4474-RGB,B-7020-RGB;n:type:ShaderForge.SFN_Vector4Property,id:8954,x:32002,y:33002,ptovrint:False,ptlb:worldHolePos,ptin:_worldHolePos,varname:node_8954,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:0,v3:0,v4:0;proporder:556-4474-7020-8954;pass:END;sub:END;*/
 
 Shader "Move/14_Hole" {
     Properties {
-        _holeSize ("holeSize", Float ) = 0
+        _holeSize ("holeSize", Float ) = 1.45
         _Floor ("Floor", 2D) = "white" {}
         _Color ("Color", Color) = (1,0,0,1)
         _worldHolePos ("worldHolePos", Vector) = (0,0,0,0)
@@ -27,7 +27,6 @@ Shader "Move/14_Hole" {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_FORWARDBASE
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
             #pragma multi_compile_fwdbase_fullshadows
@@ -70,7 +69,7 @@ Shader "Move/14_Hole" {
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
                 float3 lightColor = _LightColor0.rgb;
 ////// Lighting:
-                float attenuation = LIGHT_ATTENUATION(i);
+                UNITY_LIGHT_ATTENUATION(attenuation, i, i.posWorld.xyz);
                 float3 attenColor = attenuation * _LightColor0.xyz;
 /////// Diffuse:
                 float NdotL = max(0.0,dot( normalDirection, lightDirection ));
@@ -102,7 +101,6 @@ Shader "Move/14_Hole" {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_FORWARDADD
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
             #pragma multi_compile_fwdadd_fullshadows
@@ -145,7 +143,7 @@ Shader "Move/14_Hole" {
                 float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
                 float3 lightColor = _LightColor0.rgb;
 ////// Lighting:
-                float attenuation = LIGHT_ATTENUATION(i);
+                UNITY_LIGHT_ATTENUATION(attenuation, i, i.posWorld.xyz);
                 float3 attenColor = attenuation * _LightColor0.xyz;
 /////// Diffuse:
                 float NdotL = max(0.0,dot( normalDirection, lightDirection ));
@@ -173,7 +171,6 @@ Shader "Move/14_Hole" {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_SHADOWCASTER
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
             #pragma fragmentoption ARB_precision_hint_fastest

@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 20_Cycle
   m_Shader: {fileID: 4800000, guid: 772fd80d04dfe2249ac61cb7ab373f3a, type: 3}
   m_ShaderKeywords: 
@@ -24,7 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
-    - _MinTransparent: 0.47
-    - _Speed: 0.5
+    - _MinTransparent: 0.08
+    - _Speed: 0.77
     m_Colors:
-    - _Color: {r: 0, g: 1, b: 0.9607844, a: 1}
+    - _Color: {r: 0.64541435, g: 0.26666668, b: 1, a: 1}
